@@ -1,0 +1,175 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	background:#f5f6fa;
+}
+a:hover { text-decoration: none;
+color:#fff; }
+
+.promo-boxes-wrap{
+    margin-left: -15px;
+    overflow: hidden;
+}
+.single-promo-box{
+    height: 350px;
+    width: 50%;
+    float: left;
+    text-align: center;
+    display: table;
+    background: #fff;
+}
+.promo-box-tablecell{
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 60px;
+    transition: .6s;
+}
+.single-promo-box:nth-child(2){
+    background: #d8889b;
+}
+.single-promo-box:nth-child(3){
+    background: #7dbace;
+}
+.promo-icon:before{
+    font-size: 100px;
+    margin: 0;
+}
+.single-promo-box h2{
+    font-size: 26px;
+    font-weight: 900;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+.single-promo-box h2:after{
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    left: 50%;
+    bottom: 0;
+    content: "";
+    background: red;
+    margin-left: -25px;
+}
+.boxed-btn{
+    background: #7dbace;
+    color: #fff;
+    padding: 15px 35px;
+    border-radius: 50px;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: .6s;
+    font-weight: 900;
+}
+.single-promo-box:hover .boxed-btn{
+    opacity: 1;
+    visibility: visible;
+}
+.single-promo-box .boxed-btn{
+    opacity: 0;
+    visibility: hidden;
+}
+.single-promo-box:hover .promo-box-tablecell{
+    padding-top:0px; 
+}
+.promo-icon{
+    margin-top: -20px;
+    display: inline;
+}
+.single-promo-box:nth-child(2),.single-promo-box:nth-child(3){
+    color: #fff;
+}
+.single-promo-box:nth-child(2) h2:after,.single-promo-box:nth-child(3) h2:after{
+    background: #fff;
+}
+.single-promo-box:nth-child(4) h2:after{
+    background: #7dbace;
+}
+.single-promo-box:nth-child(4) .promo-icon{
+    color: #7dbace;
+}
+.single-promo-box:nth-child(1) h2:after ,.single-promo-box:nth-child(1) .boxed-btn{
+    background: #d8889b;
+}
+.single-promo-box:nth-child(1) .promo-icon{
+    color: #d8889b;
+}
+.single-promo-box:nth-child(4) .boxed-btn{
+    background-color: green;
+    color: #fff;
+}
+.single-promo-box:nth-child(3) .boxed-btn{
+    background-color: greenyellow;
+    color: deeppink;
+}
+
+.right-side-content{
+    padding: 90px 60px;
+}
+.section-title h3{
+    font-style: italic;
+    color: #7dbace;
+    font-weight: 600;
+    font-family: console;
+    font-size: 21px;
+}
+.section-title h2{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 60px;
+}
+.right-side-content h4{
+    font-size: 23px;
+    line-height: 1.5;
+    color: #45484D;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.right-side-content p{
+    font-size: 18px;
+    margin-bottom: 60px;
+    color: #848488;
+    line-height: 1.5;
+}
+.bordered-btn{
+    border: 2px solid #7dbace;
+    color: #7dbace;
+    padding: 15px 35px;
+    border-radius: 50px;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: .6s;
+    font-weight: 900;
+    margin-left: 10px;
+}
+.bordered-btn:hover{
+    color: #7dbace;
+}

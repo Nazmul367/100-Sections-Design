@@ -1,0 +1,108 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+	color:#333;
+}
+body {
+	color:#828282;
+	font-size:15px;
+	line-height:1.5;
+}
+a:hover { 
+	text-decoration: none;
+ }
+.section-padding{
+	padding:80px 0;
+}
+.section-title{
+	margin-bottom:60px;
+}
+.section-title h2{
+	position:relative;
+	text-transform:uppercase;
+}
+.section-title h2:before{
+    position: absolute;
+    content: "";
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    width: 70px;
+    height: 4px;
+    top:140%;
+}
+.section-title p{
+	margin-top:40px;
+}
+
+.section-title h2:after{
+    position: absolute;
+    content: "";
+    background-color: #14ADF3;
+    border-radius: 10px;
+    width: 60px;
+    height: 4px;
+    top:140%;
+    margin-left: -170px;
+
+}
+.owl-carousel .owl-item .single-staff-item img{
+	max-width:325px;
+	width:160px;
+	border-radius:50%;
+}
+.staff-meta{
+	font-size:12px;
+	color:#b7b7b7;
+	margin-top:30px;
+}
+.staff-meta h2{
+	margin: 0 0 10px;
+	font-size:18px;
+	text-transform:uppercase;
+}
+.staff-meta p{
+	margin-top:-5px;
+}
+.staff-list .owl-nav div{
+	display:inline-block;
+	height:40px;
+	width:50px;
+	background:#f3f3f3;
+	text-align:center;
+	line-height:40px;
+	font-size:20px;
+	margin-left:2px;
+	transition:.3s;
+}
+.staff-list .owl-nav div:hover{
+	background:#13acf3;
+	color:#fff;
+}
+.staff-list .owl-nav{
+	position:absolute;
+	right:0;
+	top:-60px;
+}

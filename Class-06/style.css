@@ -1,0 +1,123 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+
+.pricing-plan h2 span {
+    color: #26a65b;
+}
+.pricing-plan h2 {
+    font-size: 32px;
+    text-align: center;
+}
+.pricing-plan {
+    margin-bottom: 50px;
+	margin-top: 100px;
+}
+.pricing-plan p {
+    font-size: 16px;
+    text-align: center;
+}
+.pricing-box {
+	border: 1px solid #d6ddd9;
+	margin-bottom: 100px;
+	padding: 20px;
+	text-align: center;
+}
+.pricing-box:hover {
+	border: 1px solid #26a65b;
+	-webkit-transition: .3s;
+	transition:.3s;
+	box-shadow: 0 0 50px #f1f1f1;
+}
+.pricing-box h3 {
+  color: #444544;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.pricing-box i {
+	font-size: 60px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	-webkit-transition: .3s;
+	transition:.3s;
+}
+.pricing-box:hover .pricing-icon {
+	color: #26a65b;
+}
+.pricing-box ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+.pricing-box li:before{
+	font-family:fontAwesome;
+	content:"\f00c";
+	color:#26A65B;
+	margin-right: 10px;
+}
+.pricing-box li.close-btn:before{
+	font-family:fontAwesome;
+	content:"\f00d";
+	color:red;
+}
+.pricing-box li {
+	font-size: 14px;
+	line-height: 25px;
+	margin-left: 30px;
+	text-align: left;
+	-webkit-transition: .3s;
+	transition:.3s;
+}
+.pricing-box li:hover {
+	padding-left:5px;
+}
+.pricing-count {
+  color: #444544;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+a.ordered-btn {
+  border: 1px solid #26a65b;
+  border-radius: 50px;
+  color: #444544;
+  display: inline-block;
+  padding: 8px 20px;
+  text-decoration:none;
+}
+a.ordered-btn:hover {
+	background:#26a65b;
+	color:#fff;
+	text-decoration:none;
+	-webkit-transition: .3s;
+	transition:.3s;
+}

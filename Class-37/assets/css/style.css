@@ -1,0 +1,93 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.team-bg-1{background-image: url(../img/Kaka.jpg);}
+.team-bg-2{background-image: url(../img/Cute..baby.jpg);}
+.team-bg-3{background-image: url(../img/babla.jpg);}
+
+.section-padding{
+    padding: 80px 0
+}
+.section-title{
+    position: relative;
+    text-transform: uppercase;
+    font-size:27px;
+    font-weight: 800;
+    text-align: right;
+    transform: rotate(270deg);
+    margin-top: 102px;
+    letter-spacing: 3px;
+    width: 240px;
+    margin-left: -30px;
+}
+.section-title:before{
+    position: absolute;
+    height: 1px;
+    width: 37%;
+    right: 6px;
+    content: "";
+    top: -45px;
+    background: #000;
+}
+.team-bg{
+    height: 280px;
+    background-size: cover;
+    background-position: center top;
+    margin-bottom: 55px;
+    border-radius: 2px;
+}
+.bordered-content{
+    border: 1px solid #333;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding-bottom: 18px;
+}
+.bordered-content h3{
+    font-size: 18px;
+    letter-spacing:3px;
+    font-weight: 700;
+    margin-bottom:5px;
+    padding: 0 12px;
+    background: #fff;
+    display: inline-block;
+}
+.bordered-content p{
+    font-size: 16px;
+    color: #58666E;
+}
+.team-title{
+    margin-top: -10px;
+}
+.col-md-4:nth-child(2) .single-team-member{
+    margin-top: 120px;
+}

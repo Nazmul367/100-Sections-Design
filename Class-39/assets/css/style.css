@@ -1,4 +1,5 @@
 /* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
 .alignleft {
     float: left;
     margin-right: 15px;
@@ -23,14 +24,18 @@ h4,
 h5,
 h6 {
     margin: 0 0 15px;
-    font-weight: 700;
+	font-family: 'Roboto', sans-serif;
 }
 body {
 
 }
 a:hover { text-decoration: none }
 
-.gadient-overlay-wrapper{background-image: url(../img/purple-paint-strokes-28737-2560x1440.jpg);}
+.gadient-overlay-wrapper{
+	background-image: url(../img/purple-paint-strokes-28737-2560x1440.jpg);
+	background-size: cover;
+	background-position:center;
+}
 .gadient-overlay-wrapper:before{
     position: absolute;
     content: "";
@@ -87,11 +92,15 @@ a:hover { text-decoration: none }
 .mainmenu li {
   display: inline-block;
 }
+.mainmenu a.active{
+	color:#fff;
+	opacity:1;
+}
 .mainmenu li a {
   color: #fff;
   display: block;
   font-size: 16px;
-  padding: 25px;
+  padding: 18px;
   opacity: 0.5;
 }
 .mainmenu li a:hover {
@@ -123,15 +132,14 @@ a:hover { text-decoration: none }
     color: #fff;
     font-size: 17px;
     line-height: 1.5;
-    font-weight: 300;
     padding: 100px 0
 }
 .hero-text h1{
-    font-size: 48px;
-    font-weight: 300;
+    font-size: 47px;
     line-height: 1.2;
     margin-bottom: 40px;
-    margin-top: 50px;
+    margin-top: 65px;
+	font-weight:300;
 }
 .hero-text p{
     opacity: .7;
@@ -145,7 +153,7 @@ a:hover { text-decoration: none }
     letter-spacing: 2px;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 15px 35px ;
+    padding: 17px 33px ;
     border-radius: 50px;
     display: inline-block;
 }
@@ -153,7 +161,19 @@ a:hover { text-decoration: none }
     border: 1px solid #fff;
 }
 .underline-btn{
-    text-decoration: underline;
+	position:relative;
+}
+.underline-btn:hover:after{
+	display:none;
+}
+.underline-btn:after {
+    left: 34px;
+    bottom: 10px;
+    height: 1px;
+    width: 117px;
+    content: "";
+    background: #fff;
+    position: absolute;
 }
 .bordered-btn:hover{
     background-color: green;

@@ -1,0 +1,169 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-bg {
+    background-image: url(../img/blue_sky_107ABC_simple_high_definition.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+}
+.section-padding{
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 60px;;
+}
+.price-boxes{
+    border-radius: 3px;
+    box-shadow: 0 0 20px #fff;
+    overflow: hidden;
+}
+.single-price-box{
+	position:relative;
+    float: left;
+    width: 33.333333%;
+    z-index: 1; 
+}
+.single-price-box:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 1px;
+    content: "";
+    background: #3c76c0;
+    opacity: .3;
+}
+.single-price-box:last-child:after{
+    display: none;
+} 
+.single-price-box:last-child {
+    border: none;
+}
+.price-box-image {
+    width: 100%;
+    height: 200px;
+    display: table;
+}
+.price-box-image img{
+	max-height:260px;
+	max-width:280px;
+}
+.price-box-image-wrap {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+}
+.price-box-content {
+	background:#fff;
+	padding:40px;
+    color: #3c76c0;
+    text-align: center;
+}
+.price-box-content h2{
+	font-weight:700;
+    text-align: center;
+    font-size: 32px;
+    color: #3c76c0;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    position: relative;
+}
+.price-box-content h2:after{
+    position: absolute;
+    content: "";
+    left: 43%;
+    bottom: -10px;
+    height: 2px;
+    width: 30px;
+    background: #3c76c0; 
+}
+.price-box-content h3{
+	text-align:center;
+}
+.price-content span{
+    position: relative;
+    display: inline-block;
+    font-weight: 800;
+    font-size: 52px;
+    color: #fb5d6b;
+	text-align:center;
+}
+.price-content span:before {
+    content: "$";
+    font-size: 30px;
+    position: absolute;
+    left: -20px;
+    top: -5px;
+    font-weight:600;
+}
+.price-content span:after {
+    content: "/mo";
+    font-size: 30px;
+    position: absolute;
+    bottom: 0;
+    right: -60px;
+    font-weight:300;
+}
+.price-box-content ul {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    padding-left: 40px;
+    list-style: none;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+.price-box-content li {
+    text-transform: uppercase;
+}
+a{
+    transition: .4s;
+    text-decoration: none;
+}
+.boxed-btn{
+    font-size: 18px;
+    padding: 10px 20px;
+    background: #3c76c0;
+    color: #fff;
+    border-radius: 6px;
+}
+.boxed-btn:hover ,.boxed-btn:hover.active {
+    background: green;
+    color: #fff;
+}
+.boxed-btn.active {
+    background:#fb5d6b;
+}

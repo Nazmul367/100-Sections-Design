@@ -1,0 +1,97 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Montserrat:400,700');
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'Droid Serif', serif;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #ecebf0;
+
+}
+a:hover { text-decoration: none }
+
+.section-padding{
+    padding: 60px 0;
+}
+.colored-bg{
+    background: #79d4d9;
+    color: #fff;
+    position: relative;
+    border-radius: 5px;
+}
+.lady-img{
+    position: absolute;
+    right: -35px;
+    bottom: 0;
+}
+.slide-text{
+    padding-left: 100px;
+    max-width: 500px;
+    font-size: 17px;
+    line-height: 1.4;
+    min-height: 640px;
+    padding-top: 10px;
+}
+.top-ticker-text{
+    text-transform: uppercase;
+    font-size: 16px;
+    position: relative;;
+    padding-top: 60px;
+}
+.top-ticker-text:after {
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 30px;
+    height: 3px;
+    content: "";
+    background: #fff;
+}
+.slide-text h1{
+    line-height: 60px;
+    font-size: 52px;
+    font-weight: 400;
+    margin-top: 67px;
+    margin-bottom: 64px;
+}
+.boxed-btn{
+    color: #000;
+    font-size: 14px;
+    background: #f5f45e;
+    padding: 15px 35px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 97px;
+    font-weight: 700;
+    display: inline-block;
+    box-shadow: 0 10px 60px #f5f45e;
+}
+.boxed-btn:hover{
+    color: #fff;
+}

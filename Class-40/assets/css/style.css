@@ -159,6 +159,7 @@ a{
     background: #3c76c0;
     color: #fff;
     border-radius: 6px;
+	text-transform:uppercase;
 }
 .boxed-btn:hover ,.boxed-btn:hover.active {
     background: green;

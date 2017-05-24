@@ -1,0 +1,173 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+a:hover { text-decoration: none }
+
+.welcome-area { background-image: url(../img/web_radio_station.jpg); background-color: #333; background-position: center top; background-size: cover;}
+
+html,body {
+   height: 100%; 
+}
+.welcome-area {
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+.welcome-area:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #fff;
+    z-index: -1;
+    opacity: .7;
+}
+.header-area {
+    padding: 15px 0;
+    position: absolute;
+    z-index: 9;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.logo img {
+    max-width: 50px;
+    padding-right: 3px;
+}
+.logo a {
+    color: #ec4248;
+}
+.logo h1 {
+    font-size: 22px;
+    font-weight: 900;
+    margin: 0;
+}
+.maimenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.mainmenu li.bordered-btn a {
+    color: #ec4248;
+    border: 1px solid;
+}
+.mainmenu li {
+    display: inline-block;
+    padding-top: 7px;
+}
+.mainmenu li a {
+    color: #333;
+    display: block;
+    padding: 10px 26px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.copy-right-area {
+    background: #3f3e3c;
+    font-size: 88%;
+    position: absolute;
+    left: 0;
+    padding: 10px 0;
+    width: 100%;
+    z-index: 9;
+}
+.copy-right-area , .copy-right-area a {
+    color: #999;
+}
+.copy-right-area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.copy-right-area li {
+    display: inline-block;
+    padding-left: 20px;
+}
+.copy-right-area li a {
+    display: block;
+}
+.hero-area-table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.hero-area-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.hero-text {
+    font-size: 20px;
+    font-weight: 300;
+}
+.hero-text h1{
+    font-size: 52px ;
+    font-weight: 900;
+    margin-top: 20px;
+}
+.email-subscribe-form {
+    margin-top: 50px;
+    font-size: 14px;
+    width: 600px
+}
+.email-subscribe-form p{
+	font-size: 15px;
+	margin-top: 110px;
+	font-weight: 400;
+}
+.email-subscribe-form input[type="email"] {
+    background: #fff;
+    border: none;
+    padding: 15px;
+    font-weight: 400;
+    width: 41%;
+    border-radius: 4px;
+    padding: 16px;
+}
+button[type="submit"] {
+    background: #ec4248;
+    border: none;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-left: 8px;
+    border-radius: 4px;
+    padding: 16px 25px;
+    color: #fff;
+}
+.social-icons a{
+    color: #333;
+    display: inline-block;
+    margin-top: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}

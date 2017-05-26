@@ -1,0 +1,142 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,700i,900,900i|Oswald:400,500,600,700');
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-family: 'Oswald', sans-serif;
+}
+body {
+    
+    font-family: 'Lato', sans-serif;
+}
+a {
+     font-family: 'Oswald', sans-serif;
+}
+a:hover { text-decoration: none }
+
+.section-padding {
+    padding: 100px 0;
+}
+.section-padding.dark-bg {
+    background: #454545;
+    color: #a5a5a5;
+}
+.trailor-text {
+    font-size: 18px;
+    line-height: 1.7;
+    padding-top: 60px;
+}
+.trailor-text h2 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #fff;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+.bordered-btn {
+    color: #fff;
+    border: 2px solid #ff5151;
+    font-size: 14px;
+    width: 170px;
+    display: inline-block;
+    padding: 8px 15px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    transition: .3s;
+    border-radius: 2px
+}
+.bordered-btn i.fa {
+    float: right;
+    padding-top: 3px
+}
+.bordered-btn:hover {
+    background: darkgreen;
+    color: #fff;
+}
+.trailor-info {
+    position: relative;
+}
+.colored-pricing-box {
+    position: absolute;
+    right: 140px;
+    text-align: center;
+    background: #ff5151;
+    color: #fff;
+    width: 200px;
+    height: 250px;
+    padding-top: 50px;
+}
+.colored-pricing-box  p {
+    opacity: .5;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+.colored-pricing-box p.price-text {
+    color: #fff;
+    opacity: 1;
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;;
+}
+.absolute-shopping-cart {
+    position: absolute;
+    left: -25px;
+    top: 35px;
+    color: #333;
+    height: 50px;
+    width: 50px;
+    background: #fff;
+    font-size: 18px;
+    line-height: 45px;
+    text-align: center;
+    box-shadow:0 0 10px #666;
+}
+.trailor-info img {
+    position: relative;
+    z-index: 1;
+    padding-top: 50px;
+}
+div.owl-carousel, owl-item .trailor-info img {
+    width: auto;
+    display: inline-block;
+}
+.featureed-trailors-carousel .owl-dots div:nth-child(1) span:before {content: "01";}
+.featureed-trailors-carousel .owl-dots div:nth-child(2) span:before {content: "02";}
+.featureed-trailors-carousel .owl-dots div:nth-child(3) span:before {content: "03";}
+
+.featureed-trailors-carousel .owl-dots div {
+    border-left: 2px solid #999;
+    padding: 30px 10px;
+}
+.featureed-trailors-carousel .owl-dots div.active {
+    border-color: #ff5151;
+}
+.featureed-trailors-carousel .owl-dots {
+    position: absolute;
+    right: -60px;
+    top: 29%;
+}

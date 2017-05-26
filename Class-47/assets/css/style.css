@@ -1,0 +1,106 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Roboto:400,500,500i,700,900');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+	font-family: 'Droid Sans', sans-serif;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+a:hover { text-decoration: none }
+.testimonial-bg {
+    background-image: url(../img/background-black.jpg);
+    z-index: -1;
+    opacity: .95;
+}
+.testimonial-bg{
+    background-color: #333;
+    color: #fff;
+}
+.section-padding {
+    padding: 100px 0;
+}
+.user-avator img{
+    max-width: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.user-avator {
+    margin-bottom: 25px;
+}
+.single-testimonial-item {
+    text-align: center;
+    z-index: 1;
+}
+.testimonial-content {
+    font-size: 26px;
+    font-style: italic;
+    line-height: 32px;
+    font-family: c;
+}
+.single-testimonial-item h4 {
+    opacity: .8;
+    margin-top: 45px;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 0;
+}
+.single-testimonial-item h4 span {
+    display: block;
+    font-size: 87%;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.testimonial-carousel .owl-dots div {
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    background: #2e4450;
+    border-radius: 50%;
+    margin: 4px;
+}
+.testimonial-carousel .owl-dots div.active {
+    background: #fff;
+}
+.testimonial-carousel .owl-dots {
+    text-align: center;
+    margin-top: 20px;
+}
+.testimonial-carousel:before {
+    left: -70px;
+    top: 125px;
+    font-size: 40px;
+    content: "\f10d";
+}
+.testimonial-carousel:after {
+    right: -60px;
+    bottom: 115px;
+    font-size: 40px;
+    content: "\f10e";
+}
+.testimonial-carousel:after ,.testimonial-carousel:before {
+    font-family: fontawesome;
+    position: absolute;
+}

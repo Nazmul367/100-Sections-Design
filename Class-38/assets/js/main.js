@@ -7,7 +7,7 @@
             items:1,
             dots: true,
             nav: true,
-            autolpay: true,
+            autoplay: true,
             navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
             loop: true,
             animateOut: 'fadeOut',

@@ -1,4 +1,5 @@
 /* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Inknut+Antiqua:400,800,900');
 .alignleft {
     float: left;
     margin-right: 15px;
@@ -26,85 +27,46 @@ h6 {
     font-weight: 700;
 }
 body {
-    font-size: 16px;
-    line-height: 1.8;
+	font-family:'Inknut Antiqua', sans-serif;
 }
-a:hover { text-decoration: none }
-
-.section-bg-1{
-	background-image:url(../img/background-pc-wallpaper.jpg);
+a:hover { text-decoration: none; }
+.single-promo-box{
+	background-image: url(../img/index-01-566x401.jpg);
 }
-.section-bg-2{
-	background-image:url(../img/bright_sun_glow-wide.jpg);
+.promo-box-bg-2{
+	background-image: url(../img/index-02-566x401.jpg);
 }
-html ,body , .full-height{
-	height:100%;
-}
-body{
-    max-height: 100%;
-}
-.section-table{
-    height: 100%;
-    display:table;
-    width: 100%;
-}
-.section-tablecell{
-    display: table-cell;
-    vertical-align: middle;
-    width: 100%;
+.promo-box-bg-3{
+	background-image: url(../img/index-03-566x401.jpg);
 }
 .section-padding{
     padding: 80px 0;
 }
-.section-padding .full-height{
-    padding: 0;
-}
-.overlay{
+.single-promo-box{
+    display: block;
     position: relative;
-    z-index: 1;
-    background-attachment: fixed;
+    background-color: #333;
+    color: #fff;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    transition: .4s;
 }
-.overlay:after,.single-service-item:after{
+.promo-content{
+    font-size: 18px;
+    text-align: center;
     position: absolute;
     left: 0;
-    top: 0;
+    bottom: 55px;
     width: 100%;
-    height: 100%;
-    content: "";
-    background: #000;
-    z-index: -1;
-    opacity: .6;
+    
 }
-.single-service-item{
-    position: relative;
-    z-index: 2;
+.promo-content h2{
+    font-size: 42px;
+    font-weight: 900;
+}
+.single-promo-box:hover{
+    transform: scale(1.03);
     color: #fff;
-    padding: 30px;
-    text-align: center;
-}
-.single-service-item a{
-    color: #fff;
-}
-.single-service-item h2{
-    font-size: 25px;
-}
-.service-icon{
-    font-size: 100px;
-    line-height: 120px;
-}
-.video-play-box{
-    text-align: center;
-    color: #fff;
-	transition:.8s;
-}
-.video-btn{
-    height: 100px;
-    width: 100px;
-    display: inline-block;
-    line-height: 100px;
-    color: #333;
-    background:#fff; 
-    border-radius: 50%;
-    font-size: 30px;
-    margin-top: 20px;
+    box-shadow: 0 0 20px #999;
 }

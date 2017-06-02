@@ -1,0 +1,128 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-size: 17px;
+    color: #898888;
+    line-height: 1.7;
+}
+.active .price-content {
+    margin-top: 75px;
+}
+a:hover { text-decoration: none }
+
+.section-padding {
+    padding: 80px 0;
+}
+.price {
+    padding: 40px;
+    margin-top: 30px
+}
+.pricing-table {
+  overflow: hidden;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+.single-pricing-box {
+  width: 33.33333%;
+  float: left;
+    box-shadow: 0 0 10px #f3f3f3;
+    position: relative;
+    z-index: 1;
+    background: #fff;
+}
+.single-pricing-box.active {
+    position: relative;
+    z-index: 2;
+    margin-left: -.5%;
+    margin-right: -.5%;
+    width: 34.3333%;
+    overflow: hidden;
+}
+.active.price { overflow: hidden;}
+.active .price:after {
+    content: "Featured";
+    right: -35px;
+    top: 20px;
+    position: absolute;
+    color:#f91942 ;
+    background: #fff;
+    transform: rotate(45deg);
+    font-size: 15px;
+    padding: 5px 50px;
+}
+.price h3 {
+  font-size: 30px;
+  color: #888;
+}
+.price h1 {
+  font-size: 50px;
+  color: #333;
+  font-weight: 400;
+}
+.price-content ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 38px;
+}
+.price-content {
+  margin-top: 60px;
+}
+.boxed-btn {
+  color: #f91942;
+  background: #fff;
+  border: 1px solid #f91942;
+  padding: 14px 30px;
+  display: inline-block;
+  border-radius: 50px;
+  margin-top: 40px;
+  font-weight: 600;
+    transition: .4s;
+}
+.boxed-btn:hover,.active .boxed-btn:hover {
+    background: green;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.active .boxed-btn {
+    background: #f91942;
+    color: #fff;
+}
+.active .price {
+  background: #f91942;
+  color: #fff;
+  border-radius: 3px 3px 0 0;
+}
+.active .price {
+  margin-top: 0;
+}
+.active .price h3, .active .price h1 {
+    color: #fff;
+}

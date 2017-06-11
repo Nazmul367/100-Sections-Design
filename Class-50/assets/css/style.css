@@ -1,0 +1,165 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.bg-1 {background-image: url(../img/background-pc-wallpaper.jpg)}
+.bg-2 {background-image: url(../img/beauty-flower-nature-wallpaper.jpg)}
+.bg-3 {background-image: url(../img/Christmas-XP-Wallpaper-2.jpg)}
+.bg-4 {background-image: url(../img/awesome-desktop-backgrounds-3.jpg)}
+.bg-5 {background-image: url(../img/thumb-1920-737474.png)}
+.bg-6 {background-image: url(../img/798dc242d0345faa90042e6290472666-dbwukm.jpg)}
+.bg-7 {background-image: url(../img/eiffel-tower-night-wallpaper-3.jpg)}
+
+
+.section-padding {
+  padding: 60px 0;
+}
+.section-title {
+  margin-bottom: 40px;
+}
+.section-title p {
+  font-size: 22px;
+  color: #a3a6aa;
+}
+.section-title span {
+  color: #f9687f;
+}
+.section-title h2 {
+  font-weight: 400;
+  color: #222;
+}
+.categoey-hover {
+  font-size: 18px;
+  position: absolute;
+  left: 10%;
+  bottom: 40px;
+  width: 80%;
+  color: #fff;
+}
+.box-btn {
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 27px;
+  border-radius: 50px;
+  margin-top: 10px;
+    display: inline-block;
+    transition: .4s;
+}
+.box-btn:hover{
+    background: green;
+    color: #fff;
+}
+.single-category-box {
+    height: 380px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+	position:relative;
+	background-color: #ddd;
+    z-index: 1;
+}
+.single-category-box:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #333;
+    z-index: -1;
+    opacity: .4;
+}
+.categoey-hover h2 {
+  margin: 0;
+  font-size: 25px;
+  margin-bottom: 6px;
+}
+.box-btn:hover {
+  background: green;
+  color: #fff;
+  border: 1px solid green;
+}
+/*
+.carowsel-listing .owl-nav div {
+  left: -50px;
+  position: absolute;
+  top: 50%;
+  font-size: 40px;
+  line-height: 60px;
+  margin-top: -30px;
+  opacity: .5;
+}
+.carowsel-listing .owl-nav div.owl-next {
+  left: auto;
+  right: -50px;
+}
+*/
+.section-padding.carowsel-wrapper {
+  overflow-x: hidden;
+}
+.carowsel-listing.owl-carousel .owl-stage-outer {
+  overflow: inherit;
+}
+.carowsel-listing {
+  position: relative;
+}
+.carowsel-listing::before , .carowsel-listing::after {
+  position: absolute;
+  left: -499.5%;
+  top: 0;
+  content: "";
+  height: 89%;
+  width: 498%;
+  background: #ddd;
+  z-index: 1;
+  opacity: .6;
+}
+.carowsel-listing.owl-carousel.owl-theme.owl-loaded {
+}
+.carowsel-listing::after {
+  left: auto;
+  right: -499.5%;
+}
+.carowsel-listing .owl-dots {
+  text-align: center;
+  margin-top: 25px;
+}
+.carowsel-listing .owl-dots div {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: 2px solid #bfbfbf;
+  margin: 4px;
+  display: inline-block;
+}
+.carowsel-listing .owl-dots div.active {
+  background: #bfbfbf;
+}

@@ -1,0 +1,244 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+}
+body {
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+a:hover, a:focus { text-decoration: none }
+
+/* main menu */
+
+.menu-area ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu-area ul li a {
+    color: #fff;
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 25px 25px 25px 0;
+    padding: 0;
+    text-transform: uppercase;
+    transition:.4s;
+}
+
+.menu-area ul li:hover>a {
+    color: green;
+ 
+}
+
+.menu-area ul li ul.submenu {
+    background: #000;
+    opacity: 0;
+    position: absolute;
+    top: 99%;
+    transition:0.4s;
+    visibility: hidden;
+    width: 200px;
+}
+
+.menu-area ul li:hover ul.submenu {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    visibility: visible;
+}
+
+.menu-area ul li ul.submenu li {
+    display: block;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.menu-area ul li ul.submenu>li:hover {
+    padding-left: 10px;
+}
+
+.menu-area ul li ul.submenu li a {
+    margin: 0;
+    padding: 15px;
+}
+
+.mainn-menu {
+    background: #000 none repeat scroll 0 0;
+    left: 0;
+    opacity: 0.9;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 10;
+}
+.menu-area ul li ul.submenu-gallery {
+    background: #000 none repeat scroll 0 0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    position: absolute;
+    top: 99%;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    visibility: hidden;
+    width: 160px;
+    left: -35px;
+}
+
+.menu-area ul li:hover ul.submenu-gallery {
+    opacity: 0.98;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=98)";
+    visibility: visible;
+    left: 0px;
+}
+
+.menu-area ul li ul.submenu-gallery li {
+    display: block;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.menu-area ul li ul.submenu-gallery li a {
+    margin: 0;
+    padding: 15px;
+}
+
+.menu-area ul li ul.submenu-contact {
+    background: #000 none repeat scroll 0 0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    position: absolute;
+    top: 140%;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    visibility: hidden;
+    width: 200px;
+}
+.menu-area ul li ul.submenu-contact:before{
+    position: absolute;
+    content: "";
+    left: 20px;
+    top: -10px;
+    border-left: 12px solid transparent;
+    border-bottom: 12px solid rgba(0,0,0,1);
+    border-right: 12px solid transparent;
+
+}
+.menu-area ul li:hover ul.submenu-contact {
+    opacity: 0.98;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=98)";
+    visibility: visible;
+    top: calc(100% + 9px);
+}
+
+.menu-area ul li ul.submenu-contact li {
+    display: block;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.menu-area ul li ul.submenu-contact li a {
+    margin: 0;
+    padding: 15px;
+}
+
+.section-padding{
+    padding: 200px 0px
+}
+.section-title{
+    margin-bottom: 60px;
+    color: #848484;
+    font-size: 18px
+}
+.section-title h2 {
+    color: #333;
+    text-transform: uppercase;
+}
+.section-title span {
+    color: #1cc9ce
+}
+.service-box-bg{background-image: url(../img/medical-img1.jpg);
+    background-size: cover;
+    background-color: #ddd;
+    background-position: center;
+    height: 250px;
+    border-radius: 5px 5px 0px 0px;
+    position: relative;
+}
+.service-box-bg-2{background-image: url(../img/medical-img2.jpg);}
+.service-box-bg-3{background-image: url(../img/medical-img3.jpg);}
+.single-service-box{
+    border: 1px solid #e5e5e5;
+    border-radius: 5px 5px 0px 0px;
+    display: block;
+}
+.single-service-box:hover .service-box-bg i{
+    background:#1cc9ce;
+    border-color: #26395a;
+}
+.single-service-box:hover h2{
+    background:#26395a;
+    color: #fff;
+}
+.service-box-bg i {
+  color: #fff;
+  background: #26395a;
+  width: 80px;
+  height: 80px;
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  margin-left: -40px;
+  text-align: center;
+  border: 5px solid;
+  transition: .3s;
+}
+.service-box-bg {
+}
+.service-box-bg i:before {
+  font-size: 35px;
+  line-height: 69px;
+  margin: 0;
+}
+.service-box-bg {
+}
+.single-service-box h2 {
+  color: #222;
+  text-transform: uppercase;
+  font-size: 22px;
+  text-align: center;
+  margin: 0;
+  padding: 30px;
+  padding-top: 60px;
+  transition: .3s;
+}

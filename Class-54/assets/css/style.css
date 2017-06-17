@@ -1,0 +1,93 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.main-area{
+	padding:20px 0px;
+}
+.mainmenu-area ul{
+	background-color:green;
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.mainmenu-area li{
+	display:inline-block;
+	position:relative;
+}
+.mainmenu-area li a{
+	display:block;
+	padding:20px;
+	color:#fff;
+	text-transform:uppercase;
+	font-size:15px;
+	font-weight:700;
+	text-decoration:none;
+}
+.mainmenu-area li ul{
+	position:absolute;
+	top:50px;
+	width:220px;
+	z-index:2;
+	opacity:0;
+	visibility:hidden;
+	transition:.3s;
+}
+.mainmenu-area li:hover ul{
+	opacity:1;
+	visibility:visible;
+	top:60px;
+}
+.mainmenu-area li ul a{
+	text-transform:none;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size:15px;
+}
+.mainmenu-area li ul li{
+	display:block;
+}
+.mainmenu-area ul li>a{transition:.3s}
+.mainmenu-area ul li:hover>a{
+	background-color:gray;
+	color:#fff;
+}
+.mainmenu-area ul ul li ul{
+	left:220px;
+}
+.mainmenu-area li:hover ul ul{
+	visibility:hidden;
+	opacity:0;
+}
+.mainmenu-area ul ul li:hover>ul{
+	top:0;
+	visibility:visible;
+	opacity:1;
+}

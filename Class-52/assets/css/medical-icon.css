@@ -1,0 +1,132 @@
+	/*
+  	medical-icon icon font: medical-icon
+  	Creation date: 28/11/2016 11:17
+  	*/
+
+@font-face {
+  font-family: "MedicaleIcon";
+  src: url("../fonts/medical-icon.eot");
+  src: url("../fonts/medical-icon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/medical-icon.woff") format("woff"),
+       url("../fonts/medical-icon.ttf") format("truetype"),
+       url("../fonts/medical-icon.svg#MedicaleIcon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "MedicaleIcon";
+    src: url("../medical-icon.svg#MedicaleIcon") format("svg");
+  }
+}
+
+[class^="medical-icon-"]:before, [class*=" medical-icon-"]:before,
+[class^="medical-icon-"]:after, [class*=" medical-icon-"]:after {   
+  font-family: MedicaleIcon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.medical-icon-ambulance:before { content: "\f100"; }
+.medical-icon-ampoul:before { content: "\f101"; }
+.medical-icon-band-aid:before { content: "\f102"; }
+.medical-icon-blind:before { content: "\f103"; }
+.medical-icon-blood-transfusion:before { content: "\f104"; }
+.medical-icon-bonnet:before { content: "\f105"; }
+.medical-icon-brackets:before { content: "\f106"; }
+.medical-icon-brain:before { content: "\f107"; }
+.medical-icon-breasts:before { content: "\f108"; }
+.medical-icon-broken-tooth:before { content: "\f109"; }
+.medical-icon-cardiogram:before { content: "\f10a"; }
+.medical-icon-cardiogram-1:before { content: "\f10b"; }
+.medical-icon-caries:before { content: "\f10c"; }
+.medical-icon-colon:before { content: "\f10d"; }
+.medical-icon-compress:before { content: "\f10e"; }
+.medical-icon-condom:before { content: "\f10f"; }
+.medical-icon-crutch:before { content: "\f110"; }
+.medical-icon-deaf:before { content: "\f111"; }
+.medical-icon-defribillator:before { content: "\f112"; }
+.medical-icon-dental-drill:before { content: "\f113"; }
+.medical-icon-dental-floss:before { content: "\f114"; }
+.medical-icon-dentist:before { content: "\f115"; }
+.medical-icon-dentist-tools:before { content: "\f116"; }
+.medical-icon-doctor:before { content: "\f117"; }
+.medical-icon-drop-counter:before { content: "\f118"; }
+.medical-icon-ear:before { content: "\f119"; }
+.medical-icon-edema:before { content: "\f11a"; }
+.medical-icon-eye:before { content: "\f11b"; }
+.medical-icon-eye-drops:before { content: "\f11c"; }
+.medical-icon-fertilization:before { content: "\f11d"; }
+.medical-icon-fetus:before { content: "\f11e"; }
+.medical-icon-first-aid-kit:before { content: "\f11f"; }
+.medical-icon-hair:before { content: "\f120"; }
+.medical-icon-headache:before { content: "\f121"; }
+.medical-icon-heart:before { content: "\f122"; }
+.medical-icon-helicopter:before { content: "\f123"; }
+.medical-icon-hospital:before { content: "\f124"; }
+.medical-icon-hospital-1:before { content: "\f125"; }
+.medical-icon-hospital-bed:before { content: "\f126"; }
+.medical-icon-inhaler:before { content: "\f127"; }
+.medical-icon-injury:before { content: "\f128"; }
+.medical-icon-injury-1:before { content: "\f129"; }
+.medical-icon-injury-2:before { content: "\f12a"; }
+.medical-icon-kidney:before { content: "\f12b"; }
+.medical-icon-lips:before { content: "\f12c"; }
+.medical-icon-liver:before { content: "\f12d"; }
+.medical-icon-lungs:before { content: "\f12e"; }
+.medical-icon-mask:before { content: "\f12f"; }
+.medical-icon-medicine:before { content: "\f130"; }
+.medical-icon-medicine-1:before { content: "\f131"; }
+.medical-icon-medicine-2:before { content: "\f132"; }
+.medical-icon-medicine-3:before { content: "\f133"; }
+.medical-icon-medicine-4:before { content: "\f134"; }
+.medical-icon-medicine-5:before { content: "\f135"; }
+.medical-icon-nose:before { content: "\f136"; }
+.medical-icon-nose-1:before { content: "\f137"; }
+.medical-icon-optical:before { content: "\f138"; }
+.medical-icon-oxygen:before { content: "\f139"; }
+.medical-icon-pharmacy:before { content: "\f13a"; }
+.medical-icon-pills:before { content: "\f13b"; }
+.medical-icon-pills-1:before { content: "\f13c"; }
+.medical-icon-pimples:before { content: "\f13d"; }
+.medical-icon-plastic-surgery:before { content: "\f13e"; }
+.medical-icon-pregnancy-test:before { content: "\f13f"; }
+.medical-icon-prothesis:before { content: "\f140"; }
+.medical-icon-ribbon:before { content: "\f141"; }
+.medical-icon-sample:before { content: "\f142"; }
+.medical-icon-sample-1:before { content: "\f143"; }
+.medical-icon-scalpel:before { content: "\f144"; }
+.medical-icon-scissors:before { content: "\f145"; }
+.medical-icon-smile:before { content: "\f146"; }
+.medical-icon-sore-throat:before { content: "\f147"; }
+.medical-icon-sperm:before { content: "\f148"; }
+.medical-icon-sperm-1:before { content: "\f149"; }
+.medical-icon-stethoscope:before { content: "\f14a"; }
+.medical-icon-stomach:before { content: "\f14b"; }
+.medical-icon-stretcher:before { content: "\f14c"; }
+.medical-icon-syringe:before { content: "\f14d"; }
+.medical-icon-syringe-1:before { content: "\f14e"; }
+.medical-icon-tablets:before { content: "\f14f"; }
+.medical-icon-tablets-1:before { content: "\f150"; }
+.medical-icon-thermometer:before { content: "\f151"; }
+.medical-icon-tongs:before { content: "\f152"; }
+.medical-icon-tonometer:before { content: "\f153"; }
+.medical-icon-tooth:before { content: "\f154"; }
+.medical-icon-tooth-1:before { content: "\f155"; }
+.medical-icon-tooth-2:before { content: "\f156"; }
+.medical-icon-tooth-3:before { content: "\f157"; }
+.medical-icon-tooth-4:before { content: "\f158"; }
+.medical-icon-tooth-5:before { content: "\f159"; }
+.medical-icon-tooth-6:before { content: "\f15a"; }
+.medical-icon-toothbrush:before { content: "\f15b"; }
+.medical-icon-toothbrush-1:before { content: "\f15c"; }
+.medical-icon-ultrasonography:before { content: "\f15d"; }
+.medical-icon-urine:before { content: "\f15e"; }
+.medical-icon-uterus:before { content: "\f15f"; }
+.medical-icon-walker:before { content: "\f160"; }
+.medical-icon-wheelchair:before { content: "\f161"; }
+.medical-icon-x-ray:before { content: "\f162"; }
+.medical-icon-x-ray-1:before { content: "\f163"; }

@@ -1,0 +1,118 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding {
+    padding: 80px 0;
+}
+.video-play-btn {
+  display: block;
+  height: 450px;
+  width: 100%;
+  background-size: 109%;
+  background-position: center;
+  display: table;
+  color: #fff;
+}
+.video-content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding: 50px;
+  position: relative;
+  z-index: 1;
+  transform: scale(.7);
+  opacity: 0;
+  visibility: hidden;
+  transition: .4s;
+}
+.video-content:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background-color: #da5165;
+  z-index: -1;
+  opacity: .7;
+}
+.boxed-btn {
+  height: 40px;
+  width: 40px;
+  line-height: 35px;
+  border: 2px solid;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.video-content:hover {
+  color: #fff;
+}
+.video-head-descrp p {
+}
+.video-content p {
+  opacity: .7;
+    margin: 0;
+    font-size: 18px;
+}
+.video-content p.video-head-descrp {
+  opacity: 1;
+}
+.video-play-btn:hover .video-content {
+  transform: scale(1);
+  opacity: 1;
+  visibility: visible;
+}
+.video-head-descrp span {
+    position: relative;
+    z-index: 1;
+}
+
+.video-head-descrp span:before,
+.video-head-descrp span:after {
+    background: #fff;
+    content: "";
+    height: 2px;
+    left: -40px;
+    position: absolute;
+    top: 11px;
+    width: 30px;
+}
+
+.video-head-descrp span:after {
+    left: auto;
+    right: -40px;
+}
+.video-content h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 20px 0;
+}

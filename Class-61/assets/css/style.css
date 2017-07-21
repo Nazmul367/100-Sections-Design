@@ -1,0 +1,108 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding {
+    padding: 80px 0;
+}
+.pdt-80 {
+    padding-top: 80px;
+}
+.section-title {
+  font-size: 70px;
+  font-weight: 400;
+  margin-bottom: 70px;
+}
+.section-padding.map-bg {
+  background-color: #34394f;
+  color: #fff;
+  padding-bottom: 0;
+  margin-bottom: 180px;
+}
+.section-content {
+  font-size: 130%;
+  line-height: 1.9;
+  color: #ddd;
+  margin-top: 6px;
+}
+.section-content strong {
+  color: #fff;
+}
+.location-direction {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding-left: 60px;
+  margin-top: 20px;
+}
+.location-direction h3 {
+  color: #ed9540;
+  font-size: 37px;
+  font-weight: 400;
+  margin: 0;
+}
+.location-direction h3 span {
+  font-size: 20px;
+}
+.location-direction p {
+  font-size: 12px;
+  text-transform: uppercase;
+  opacity: .5;
+  margin-top: 8px;
+}
+.location-direction li {
+  position: relative;
+  z-index: 1;
+  padding-bottom: 25px;
+  margin-bottom: 40px;
+}
+.location-direction li:after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  width: 80px;
+  content: "";
+  background: #fff;
+  opacity: 0.2;
+}
+.location-direction li:last-child:after {
+  display: none;
+}
+.location-direction li:last-child {
+  margin-bottom: 20px;
+}
+.map {
+  margin-bottom: -100px;
+  box-shadow: 0px 0px 3px #f7f7f7;
+    height: 530px;
+    width: 100%;
+}

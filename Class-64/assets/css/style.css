@@ -1,0 +1,355 @@
+/* Base CSS */
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800');
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 400;
+    color: #373737;
+}
+body {
+    font-family: 'Khula', sans-serif;font-size: 15px; color: #999;
+}
+a:hover { text-decoration: none }
+
+/* Class 01*/
+
+.mainmenu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.mainmenu li {
+    position: relative;
+  display: inline-block;
+}
+.mainmenu li a {
+  color: #888;
+  display: block;
+  padding: 12px 16px;
+}
+.mainmenu li a:hover {
+	color:red;
+}
+.boxed-btn, input[type="submit"],button[type=submit] {
+  display: inline-block;
+  font-size: 14px;
+  background: #ec4a71;
+  color: #fff;
+  padding: 13px 28px;
+  border-radius: 3px;
+  border: 0;
+    transition: .4s;
+}
+.boxed-btn:hover {
+    background: green;
+    color: #fff;
+}
+.hero-area h1 {
+  font-size: 40px;
+  max-width: 440px;
+  margin-bottom: 20px;
+  padding-top: 30px;
+}
+input[type=text],input[type=tel],input[type=url],input[type=password] {
+  border: 1px solid #f0f0f0;
+  padding: 10px 15px;
+    transition: .4s;
+}
+input[type="submit"], button[type="submit"] {
+  font-weight: 400;
+  padding: 11px 25px;
+}
+input[type="submit"]:hover, button[type="submit"]:hover {
+    background: green;
+}
+.hero-area {
+  font-weight: 300;
+  padding: 150px 0;
+  border: 1px solid #f7f7f7;
+}
+.checker-form {
+  margin-top: 30px;
+}
+.header-area {
+  padding: 20px 0;
+}
+
+/* Class 02 */
+
+
+h2 {
+  font-size: 28px;
+  line-height: 37px;
+}
+.pdt-50 .boxed-btn {
+  margin-top: 15px;
+}
+.pdt-50 {
+  padding: 50px 0;
+}
+.section-title p {
+  line-height: 1.6;
+}
+.pdt-70 {
+    padding: 70px 0;
+    line-height: 1.5;
+}
+.section-padding {
+  padding: 115px 0;
+}
+.section-title {
+  margin-bottom: 50px;
+}
+.service-icon {
+  font-size: 28px;
+  color: #5a5a5b;
+}
+.single-service-box {
+  border: 1px solid #fafafa;
+  padding: 25px;
+  font-weight: 300;
+  line-height: 1.6;
+  margin-bottom: 50px;
+}
+.single-service-content h3 {
+  font-size: 20px;
+  margin: 15px 0;
+}
+.service-readmore-btn {
+  color: #373737;
+  font-weight: 400;
+  margin-top: 10px;
+  display: inline-block;
+}
+.service-readmore-btn i.fa {
+  padding-left: 5px;
+}
+.single-service-box:hover {
+  border: 1px solid #ef476f;
+  border: 1;
+}
+.single-service-box:hover a.service-readmore-btn,.single-service-content:hover h3,.single-service-box:hover .service-icon {
+  color: #ef476f;
+}
+
+/* Class 03*/
+
+.section-padding.gray-bg {
+  background-color: #fbfbfb;
+}
+.single-case-study {
+  display: table;
+  height: 320px;
+  width: 100%;
+  background: #ddd;
+  position: relative;
+}
+.case-study-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  color: #fff;
+  background: #ec4a71;
+  text-align: center;
+  padding: 20px;
+  visibility: hidden;
+  transition: .3s;
+  opacity: 0;
+}
+.case-study-wrapper h3,.case-study-wrapper h4 {
+  color: #fff;
+}
+.case-study-arrow {
+  height: 40px;
+  width: 40px;
+  background: #fff;
+  display: inline-block;
+  line-height: 44px;
+  border-radius: 50%;
+  margin-top: 10px;
+  color: #333;
+}
+.case-study-arrow i.fa {
+  font-weight: 300 !important;
+}
+.single-case-study:hover .case-study-wrapper {
+  opacity: 1;
+  visibility: visible;
+}
+.section-padding.overflow-x-hidden {
+  overflow: hidden;
+}
+.case-study-carousel .owl-stage-outer {
+  overflow: inherit;
+}
+.owl-dots div {
+  height: 4px;
+  width: 30px;
+  background-color: #e2e2e2;
+  display: inline-block;
+  margin: 4px;
+}
+.owl-dots div.active {
+  background-color: #ec4a71;
+}
+.owl-dots {
+  text-align: center;
+  margin-top: 30px;
+}
+.testimonial-content {
+  font-size: 24px;
+  color: #373737;
+}
+
+.owl-carousel .owl-item .testimonial-meta img {
+  width: 70px;
+  display: inline-block;
+  height: 100%;
+  border-radius: 50%;
+}
+.testimonial-meta h4 {
+  color: #333;
+  margin: 27px 0 10px;
+}
+.testimonial-meta p {
+  color: #999;
+  font-size: 14px;
+  font-weight: 300;
+}
+.testimonial-meta {
+  margin-top: 40px;
+}
+.cta-area {
+  background: #f8f8f8;
+}
+.cta-area h2 {
+  padding-top: 8px;
+  margin: 0;
+}
+.cta-area {
+  padding: 60px 0;
+}
+
+/* Class 04 */
+
+.single-pricing-box {
+  border: 1px solid #f8f8f8;
+  padding: 30px;
+  margin-bottom: 75px;
+  transition: .3s;
+}
+.price-heading {
+  border-bottom: 1px solid #fbfbfb;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  transition: .3s;
+}
+.price-heading h4 {
+  font-size: 20px;
+}
+.price-heading p.price-count {
+  font-size: 50px;
+  color: #ec4a71;
+  font-weight: 400;
+  line-height: 60px;
+  margin: 0;
+}
+.price-heading p {
+  font-size: 14px;
+  font-weight: 300;
+}
+.pricing-content {
+  font-size: 17px;
+  line-height: 2.4;
+}
+.pricing-content ul {
+  list-style: none;
+  position: relative;
+  margin: 0 0 30px;
+  padding: 0;
+}
+.pricing-content a.boxed-btn {
+  line-height: 1.6;
+}
+.single-pricing-box:hover {
+  border-color: #ec4a71;
+}
+.single-pricing-box:hover .price-heading {
+  border-color: #ec4a71;
+}
+.single-logo-item {
+  display: table;
+  height: 40px;
+  width: 130px;
+  opacity: .7;
+}
+.single-logo-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+.single-logo-item:hover {
+  opacity: 1;
+  opacity: 1;
+}
+.footer-area {
+  background: #fbfbfb;
+  padding: 70px 0;
+}
+.footer-area h4 {
+  font-size: 20px;
+}
+.footer-area ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer-area, .footer-area a {
+  color: #999;
+  line-height: 1.8;
+}
+.email-subscribe-form input[type=email] {
+  width: 56%;
+  padding: 7px;
+  background-color: #f6f6f6;
+  border: #f6f6f6;
+  margin-right: -3px;
+}
+.email-subscribe-form input[type="submit"] {
+  width: 31%;
+  padding: 7px;
+  border-radius: 0;
+}
+.email-subscribe-form {
+  margin-bottom: 35px;
+}
+.footer-area ul.social-links li {
+  display: inline-block;
+  width: 32%;
+}
+.copy-right-area {
+  background: #f7f7f7;
+  padding: 14px 0;
+}

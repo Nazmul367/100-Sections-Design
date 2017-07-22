@@ -1,0 +1,111 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+
+h2,h3 {
+  color: #4c4b8a;
+  font-weight: 400;
+}
+body {
+  font-size: 15px;
+  color: #979797;
+  line-height: 1.6;
+}
+.feature-area {
+    padding: 80px 0;
+}
+.feature-area2 {
+    padding: 130px 0;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 160px;
+}
+.feature-wrap {
+  position: relative;
+  z-index: 1;
+  padding-bottom: 130px;
+}
+img.img-absolute {
+  position: absolute;
+  right: -80px;
+  bottom: 0;
+}
+h2 {
+    margin-top: 20px;
+}
+h3 {
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+p {
+  font-size: 14px 
+}
+
+/* Class 66 */
+
+.menu-area {
+  background-color: green;
+  width: 100%;
+  z-index: 999;
+}
+.mainmenu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.mainmenu li {
+  display: inline-block;
+}
+.mainmenu li a {
+  color: #fff;
+  font-size: 18px;
+    display: block;
+  padding: 30px;
+}
+.fixed-area  {
+    width: 100%;
+    z-index: 99;
+    background-color: #fff
+}
+.fixed-area2  {
+    width: 100%;
+    z-index: 99;
+    background-color: #fff
+}
+.fixed-area.is-strick {
+    position: fixed;
+}
+.is-sticky {
+    position: relative;
+    z-index: 9999;
+}

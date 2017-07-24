@@ -1,0 +1,173 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.right-side {background-image: url(../img/best-wallpapers-hd-best-nature-wallpapers-hd.jpg);}
+
+.left-side {
+  width: 20%;
+  background-color: #222;
+  height: 100%;
+  position: fixed;
+}
+.right-side {
+  width: 80%;
+  margin-left: 20%;
+  height: 100%;
+  display: table;
+  position: relative;
+  z-index: 2;
+}
+html,body {
+  height: 100%;
+}
+.right-side:after {
+  position: absolute;
+  z-index: -1;
+  left: ;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background: ;
+  background: #ddd;
+  opacity: .4;
+}
+.right-side-wrap {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 22px;
+  color: #fff;
+  padding: 8%;
+}
+.right-side-wrap h2 {
+  font-size: 63px;
+}
+.right-side-wrap span {
+  color: #ffce43;
+}
+.right-side-wrap p {
+    margin-top: 30px;
+}
+.boxed-btn {
+    color: #333;
+    background: #ddd;
+    padding: 16px 45px;
+    display: inline-block;
+    margin-top: 120px;
+    border-radius: 50px;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.boxed-btn:hover {
+    background-color: green;
+    color: #fff;
+}
+.logo {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  text-align: center;
+  margin: 53px 0;
+}
+.logo:before {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 130px;
+  width: 130px;
+  content: "";
+  background: #ffb607;
+  border-radius: 50%;
+  z-index: -1;
+  margin-left: -65px;
+  margin-top: -65px;
+  opacity: .2;
+}
+.logo h1 {
+  font-size: 45px;
+}
+.mainmenu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+    padding-top: 10px;
+}
+.mainmenu li {
+  text-align: center;
+  margin-top: 35px;
+}
+.mainmenu li a {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.mainmenu li a.active {
+    color: #ffce43;
+    border-bottom: 3px solid #ffce43;
+}
+.social-links {
+  display: inline-block;
+  margin-top: 70px;
+}
+.social-links a {
+  color: #fff;
+  padding: 0px 10px;
+  font-size: 16px;
+}
+.copy-right {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.8;
+}
+.copy-right p span {
+  color: #ffce43;
+}
+
+/* modal */
+
+.modify-modal .modal-dialog {
+  width: 800px;
+}
+.modify-modal .modal-content {
+  border-radius: 0px;
+  background: grey;
+  color: white;
+  font-size: 18px;
+  opacity: .8;
+}
+.modify-modal .modal-header {
+  border-color: red;
+}

@@ -1,0 +1,115 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.welcome-area {background-image: url(../img/pexels-photo-257360.jpeg);background-size: cover;background-position: center;}
+
+body,html {
+    height: 100%;
+}
+
+.welcome-area {
+    display: table;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.welcome-area:after {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    content: "";
+    background: #333;
+    opacity: .5;
+    z-index: -1;
+}
+
+.welcome-area-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.welcome-area h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.welcome-area h2 {
+    font-weight: 400;
+}
+
+.email-subscrirbe-form {
+    width: 400px;
+    margin: 60px auto;
+}
+
+.email-subscrirbe-form input {
+    width: 100%;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 40px;
+}
+
+.email-subscrirbe-form input[type=submit] {
+    background: #ffce44;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.email-subscrirbe-form input[type=email] {
+    font-style: italic;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.single-counter-item {
+    font-size: 75px;
+    line-height: 45px;
+    padding:20px;
+    text-aling:center;
+}
+
+.single-counter-item span {
+    font-size: 18px;
+    text-transform:uppercase;
+    font-weight:700;
+
+}
+.single-counter-item {
+    display:inline-block;
+}

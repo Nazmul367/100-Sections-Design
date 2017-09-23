@@ -1,0 +1,82 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+a:hover { text-decoration: none }
+
+.section-padding {
+    padding: 80px 0;
+}
+.single-food-info h3 { font-family: 'Nothing You Could Do', cursive; }
+
+.food-bg-1 {background-image: url(../img/chickendinner_640x480.jpg)}
+.food-bg-2 {background-image: url(../img/creolespicedcornthumb_640x480.jpg)}
+.food-bg-3 {background-image: url(../img/photo.jpg)}
+
+.food-bg {
+    height: 300px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.single-food-info {
+    padding: 30px;
+    background: #f3f4f4;
+    border-top: 4px solid #d0963f;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -100px;
+}
+
+p.food-price span {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+body {
+    font-size: 16px;
+}
+
+.single-food-info h2 {
+    color: #d0963f;
+    text-transform: uppercase;
+}
+
+a.boxed-btn {
+    border: 1px solid #d0963f;
+    padding: 10px 20px;
+    margin-top: 7px;
+    display: inline-block;
+    border-radius: 3px;
+    color: #d0963f;
+    text-transform: uppercase;
+}
+

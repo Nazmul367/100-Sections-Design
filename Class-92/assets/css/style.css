@@ -252,7 +252,7 @@ a:hover {
 }
 
 .single-service-box:hover {
-    box-shadow: 0 0 13px #ccc;
+    box-shadow: 0 0 13px #333;
 }
 .padding-bottom-0{
     padding-bottom: 0;
